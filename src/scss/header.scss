@@ -1,0 +1,66 @@
+header {
+    min-height: 1350px;
+    background-image: url(../img/header-background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header-top {
+    min-height: 122px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    max-width: 129px;
+    margin-top: 20px
+}
+
+.logo__img {
+    width: 30%;
+}
+
+.logo-text {
+    margin-top: 22px;
+}
+
+.logo-text__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.logo-text__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+}
+
+.header-menu {
+    padding-top: 52px;
+}
+
+.menu-list {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.menu-list li {
+    margin-left: 20px;
+}
+
+.menu-list li:nth-child(1) {
+    margin-left: 0px;
+}
+
+.contacts {}
+
+.container {}
