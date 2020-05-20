@@ -1,0 +1,38 @@
+.lessons {}
+
+.lessons-container {
+    max-width: 1500px;
+    margin-left: 10%;
+    margin-top: -12%;
+}
+
+.lessons__title {
+    max-width: 625px;
+    margin: auto;
+}
+
+.lessons-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lessons-info__image {
+    max-width: 500px;
+}
+
+.lessons-info__image img {
+    width: 100%;
+}
+
+.lessons-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lessons-info-text__paragpaph {
+    max-width: 632px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+}

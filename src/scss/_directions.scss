@@ -1,0 +1,23 @@
+.directions {
+    background-image: url(../img/direction-background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 1960px;
+}
+
+.directions-container {
+    max-width: 1500px;
+    margin-left: 10%;
+}
+
+.directions__title {
+    margin-top: 70px;
+}
+
+.directions__description {
+    max-width: 795px;
+    margin-left: inherit;
+    margin-top: 20px;
+}
+
+.directions-items {}
