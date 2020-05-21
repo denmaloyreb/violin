@@ -1,0 +1,40 @@
+.contacts-section {
+    min-height: 500px;
+    position: relative;
+}
+
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.contacts-info-square {
+    position: absolute;
+    max-width: 600px;
+    max-height: 400px;
+    background: #fefeff;
+    -webkit-box-shadow: 0 20px 40px rgba(2, 1, 50, .15);
+    box-shadow: 0 20px 40px rgba(2, 1, 50, .15);
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 10px 30px 20px 20px;
+}
+
+.contacts-info-square__contact span {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 32px;
+    color: rgba(96, 93, 209, 0.52);
+}
