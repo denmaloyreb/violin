@@ -1,4 +1,16 @@
 <header>
+    <div class="menu-mobile">
+        <div class="menu-mobile__menu">
+            <ul class="menu-list mobile-list">
+                <li><a href="#">All disciplines</a>
+                </li>
+                <li><a href="#">First day programm</a></li>
+                <li><a href="#">Cost</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+
+    </div>
     <div class="header-top">
         <div class="logo">
             <div class="logo__img"><img src="img/logo.png" alt="logo"></div>
@@ -26,12 +38,49 @@
             <div class="contact-phone__img"><img src="img/iconPhone.png" alt=""></div>
             <div class="contact-phone__text">1 (234) 567-89-10</div>
         </div>
-    </div>
-    <div class="container-header-text">
-        <div class="container-header-text__title">
-            <h1>Express school Violin. Your first results after 4 sessions.</h1>
+        <div class="mobile-menu">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <div class="container-header-text__description">Master the technique with our techniques and start singing like our professionals!</div>
-        <div class="button"><a href="#">Sign up for a free clas</a></div>
     </div>
+    <div class="header-bottom">
+        <div class="container-header-text">
+            <div class="container-header-text__title wow bounceInLeft">
+                <h1>Express school Violin. Your first results after 4 sessions.</h1>
+            </div>
+            <div class="container-header-text__description wow bounceInRight">Master the technique with our techniques and start singing like our professionals!</div>
+            <a href="#popup">
+                <div class="button wow bounceInLeft">Sign up for a free class</div>
+            </a>
+        </div>
+        <div class="header-image">
+            <img src="img/header-image.png" alt="dance">
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <div class="form-container" id="form-container">
+            <a href="#">
+                <div class="close-btn"></div>
+            </a>
+            <div class="pupup__logo"><img src="img/iconMicro.jpg" alt=""></div>
+            <div class="pupup__title">
+                <h2>Sign up to class</h2>
+            </div>
+            <div class="pupup__description">
+                <p>Leave your details and we will call you back within an hour.</p>
+            </div>
+            <div class="pupup-form">
+                <form class="page-form" action="#">
+                    <input class="name" name="name" id="name" type="text" placeholder="Your name"> </br>
+                    <input class="form_phone" type="tel" name="tel" placeholder="Your telephone number"> </br>
+
+                    <input class="button form-button" type="submit" value="Sign up for a class">
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
 </header>

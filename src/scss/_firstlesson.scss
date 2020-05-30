@@ -35,6 +35,8 @@
 
 .firstlesson-steps-left-item {
     min-height: 140px;
+    max-width: 700px;
+    margin-right: 10px;
 }
 
 .firstlesson-steps-left-item__title {}
@@ -67,10 +69,6 @@
     text-align: center;
 }
 
-.right-step {
-    padding-left: 36px;
-}
-
 .right-step p {
     margin-left: 45px;
 }
@@ -93,6 +91,5 @@
 }
 
 .button-first-lesson {
-    padding-left: 122px;
     margin: 20px auto
 }

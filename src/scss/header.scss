@@ -1,132 +1,280 @@
-header {
-    min-height: 1350px;
-    background-image: url(../img/head-bcg.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.header-top {
-    min-height: 122px;
-    padding-left: 5%;
-    padding-right: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    display: flex;
-    justify-content: start;
-    max-width: 129px;
-    margin-top: 20px
-}
-
-.logo__img {
-    width: 30%;
-}
-
-.logo-text {
-    margin-top: 22px;
-}
-
-.logo-text__title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;
-    color: #000000;
-}
-
-.logo-text__text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    /* or 125% */
-}
-
-.header-menu {
-    padding-top: 52px;
-}
-
-.menu-list {
-    display: inline-flex;
-    justify-content: space-between;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000000;
-}
-
-.menu-list li {
-    margin-left: 20px;
-}
-
-.menu-list li:nth-child(1) {
-    margin-left: 0px;
-}
-
-.contacts {
-    display: flex;
-    justify-content: start;
-    margin-top: 40px;
-}
-
-.contacts__text {
-    margin-top: 9px;
-    margin-left: 10px;
-    max-width: 120px;
-}
-
-.contact-phone {
-    display: flex;
-    justify-content: start;
-    margin-top: 40px;
-}
-
-.contact-phone__text {
-    margin-top: 9px;
-    margin-left: 10px;
-}
-
-.container-header-text {
-    max-width: 625px;
-    margin-top: 4%;
-    margin-left: 10%;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.container-header-text__title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-}
-
-.container-header-text__description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
-}
-
-.button {
-    padding-left: 17%;
-    max-width: 405px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 55px;
-    color: #FFFFFF;
-    background: linear-gradient(136.08deg, #4271EC -2.32%, #A868FF 87.23%);
-    box-shadow: 0px 5px 30px rgba(132, 108, 249, 0.71);
-    border-radius: 37px;
-    cursor: pointer;
-}
-
-.button a {
-    color: #FFFFFF;
-}
+    header {
+        min-height: 1350px;
+        background-image: url(../img/bcg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .header-top {
+        min-height: 122px;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: start;
+        max-width: 129px;
+        margin-top: 20px
+    }
+    
+    .logo__img {
+        width: 30%;
+    }
+    
+    .logo-text {
+        margin-top: 22px;
+    }
+    
+    .logo-text__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+    }
+    
+    .logo-text__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        /* or 125% */
+    }
+    
+    .header-menu {
+        padding-top: 52px;
+    }
+    
+    .menu-list {
+        display: inline-flex;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+    }
+    
+    .menu-list li {
+        margin-left: 20px;
+    }
+    
+    .menu-list li:nth-child(1) {
+        margin-left: 0px;
+    }
+    
+    .contacts {
+        display: flex;
+        justify-content: start;
+        margin-top: 40px;
+    }
+    
+    .contacts__text {
+        margin-top: 9px;
+        margin-left: 10px;
+        max-width: 120px;
+    }
+    
+    .contact-phone {
+        display: flex;
+        justify-content: start;
+        margin-top: 40px;
+    }
+    
+    .menu-mobile {
+        position: fixed;
+        min-height: 100vh;
+        z-index: 10;
+        width: 100vw;
+        background: rgba(102, 102, 102, .97);
+        display: none;
+    }
+    
+    .menu-mobile__menu {
+        width: 90vw;
+        background: #F3F9FF;
+        min-height: 100vh;
+    }
+    
+    .mobile-list {
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+    }
+    
+    .mobile-list li {
+        margin: auto;
+    }
+    
+    .mobile-list li:nth-child(1) {
+        margin-left: auto;
+    }
+    
+    .mobile-menu {
+        width: 50px;
+        height: 37px;
+        margin-top: 31px;
+        background: #F3F9FF;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+    }
+    
+    .mobile-menu div {
+        width: 36px;
+        height: 2px;
+        background-color: black;
+        margin: 5px 0;
+    }
+    
+    .header-bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .header-image {
+        max-width: 957px;
+    }
+    
+    .header-image img {
+        width: 100%;
+    }
+    
+    .contact-phone__text {
+        margin-top: 9px;
+        margin-left: 10px;
+    }
+    
+    .container-header-text {
+        max-width: 625px;
+        margin-top: 4%;
+        margin-left: 10%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .container-header-text__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    .container-header-text__description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .button {
+        text-align: center;
+        max-width: 405px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 55px;
+        color: #FFFFFF;
+        background: linear-gradient(136.08deg, #4271EC -2.32%, #A868FF 87.23%);
+        box-shadow: 0px 5px 30px rgba(132, 108, 249, 0.71);
+        border-radius: 37px;
+        cursor: pointer;
+    }
+    
+    .button a {
+        color: #FFFFFF;
+    }
+    
+    .popup {
+        width: 100vw;
+        height: 100vh;
+        background: rgba(102, 102, 102, 0.97);
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        display: none;
+    }
+    
+    #popup:target {
+        display: block;
+    }
+    
+    .form-container {
+        position: relative;
+        background: white;
+        /* margin: 50%; */
+        margin: 25vh auto;
+        max-width: 650px;
+        min-height: 53vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+    }
+    
+    .pupup__logo {
+        margin-top: 30px;
+    }
+    
+    .page-form .name,
+    .page-form .form_phone {
+        background: #FFFFFF;
+        border: 1px solid #A3B7FF;
+        box-sizing: border-box;
+        box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        width: 320px;
+        height: 60px;
+        left: 191px;
+    }
+    
+    .pupup__description {
+        max-width: 365px;
+        margin: 20px auto;
+    }
+    
+    .form-button {
+        padding: 3px 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #popup:target {
+        display: block;
+    }
+    
+    .close-btn {
+        width: 44px;
+        height: 26px;
+        position: absolute;
+        right: 15px;
+        top: 31px;
+        cursor: pointer;
+    }
+    
+    .close-btn::after,
+    .close-btn::before {
+        content: "";
+        width: 35px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        transform-origin: left;
+    }
+    
+    .close-btn::after {
+        transform: rotate(45deg);
+    }
+    
+    .close-btn::before {
+        transform: rotate(-45deg);
+        bottom: -1px;
+    }

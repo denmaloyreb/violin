@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" media="all" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
@@ -16,6 +17,18 @@
 <body>
     <div class="main-container">
         <header>
+    <div class="menu-mobile">
+        <div class="menu-mobile__menu">
+            <ul class="menu-list mobile-list">
+                <li><a href="#">All disciplines</a>
+                </li>
+                <li><a href="#">First day programm</a></li>
+                <li><a href="#">Cost</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+
+    </div>
     <div class="header-top">
         <div class="logo">
             <div class="logo__img"><img src="img/logo.png" alt="logo"></div>
@@ -43,27 +56,64 @@
             <div class="contact-phone__img"><img src="img/iconPhone.png" alt=""></div>
             <div class="contact-phone__text">1 (234) 567-89-10</div>
         </div>
-    </div>
-    <div class="container-header-text">
-        <div class="container-header-text__title">
-            <h1>Express school Violin. Your first results after 4 sessions.</h1>
+        <div class="mobile-menu">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <div class="container-header-text__description">Master the technique with our techniques and start singing like our professionals!</div>
-        <div class="button"><a href="#">Sign up for a free clas</a></div>
     </div>
+    <div class="header-bottom">
+        <div class="container-header-text">
+            <div class="container-header-text__title wow bounceInLeft">
+                <h1>Express school Violin. Your first results after 4 sessions.</h1>
+            </div>
+            <div class="container-header-text__description wow bounceInRight">Master the technique with our techniques and start singing like our professionals!</div>
+            <a href="#popup">
+                <div class="button wow bounceInLeft">Sign up for a free class</div>
+            </a>
+        </div>
+        <div class="header-image">
+            <img src="img/header-image.png" alt="dance">
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <div class="form-container" id="form-container">
+            <a href="#">
+                <div class="close-btn"></div>
+            </a>
+            <div class="pupup__logo"><img src="img/iconMicro.jpg" alt=""></div>
+            <div class="pupup__title">
+                <h2>Sign up to class</h2>
+            </div>
+            <div class="pupup__description">
+                <p>Leave your details and we will call you back within an hour.</p>
+            </div>
+            <div class="pupup-form">
+                <form class="page-form" action="#">
+                    <input class="name" name="name" id="name" type="text" placeholder="Your name"> </br>
+                    <input class="form_phone" type="tel" name="tel" placeholder="Your telephone number"> </br>
+
+                    <input class="button form-button" type="submit" value="Sign up for a class">
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
 </header> <section class="lessons">
-    <div class="lessons-container wow bounceInLeft">
-        <div class="lessons__title">
+    <div class="lessons-container">
+        <div class="lessons__title wow bounceInLeft">
             <h2>Vocal lessons for beginners in New York on an accelerated program</h2>
         </div>
         <div class="lessons-info">
             <div class="lessons-info__image"><img src="img/Union.png" alt=""></div>
             <div class="lessons-info-text">
-                <div class="lessons-info-text__paragpaph">
+                <div class="lessons-info-text__paragpaph wow bounceInRight">
                     <p>Many people dream of a beautiful voice, a big stage, admiration from the audience, flowers, gifts... However, it is believed that you can only learn to sing from childhood, having a natural talent. This is a myth! It is possible to
                         realize the dream of a beautiful voice that many people will love at any age!</p>
                 </div>
-                <div class="lessons-info-text__paragpaph">
+                <div class="lessons-info-text__paragpaph wow bounceInRight">
                     <p>To date, there are many accelerated adult vocal training programs that are aimed at maximum results! The most important thing is to choose a school where vocal training will take place from scratch and build the road to success.</p>
                 </div>
             </div>
@@ -71,14 +121,14 @@
     </div>
 </section> <section class="directions">
     <div class="directions-container">
-        <div class="directions__title">
+        <div class="directions__title wow bounceInRight">
             <h2>All directions of study</h2>
         </div>
-        <div class="directions__description">
+        <div class="directions__description wow bounceInLeft">
             <p>In order for you to get results as quickly as possible, the school's founder, Donald Trump, a professional musician who has played at the Bolshoi theater of Russia since he was 16, has developed a special program for all existing directions.</p>
         </div>
         <div class="directions-items">
-            <div class="directions-items-item" style="background-image: url('img/percussion.png');">
+            <div class="directions-items-item wow bounceInLeft" style="background-image: url('img/percussion.png');">
                 <div class="directions-items-item__title">Percussion</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -89,7 +139,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/solfeggio.png');">
+            <div class="directions-items-item wow bounceInUp" style="background-image: url('img/solfeggio.png');">
                 <div class="directions-items-item__title">Solfeggio</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -100,7 +150,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/strings.png');">
+            <div class="directions-items-item wow bounceInRight" style="background-image: url('img/strings.png');">
                 <div class="directions-items-item__title">Strings</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -111,7 +161,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/vokal.png');">
+            <div class="directions-items-item wow bounceInLeft" style="background-image: url('img/vokal.png');">
                 <div class="directions-items-item__title">Vokal</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -122,7 +172,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/woodwind.png');">
+            <div class="directions-items-item wow bounceInLeft" style="background-image: url('img/woodwind.png');">
                 <div class="directions-items-item__title">Woodwind</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -133,7 +183,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/keyboard.png');">
+            <div class="directions-items-item wow bounceInRight" style="background-image: url('img/keyboard.png');">
                 <div class="directions-items-item__title">Keyboard</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -142,7 +192,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/folk.png');">
+            <div class="directions-items-item wow bounceInLeft" style="background-image: url('img/folk.png');">
                 <div class="directions-items-item__title">Folk</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -153,7 +203,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/bow.png');">
+            <div class="directions-items-item wow bounceInDown" style="background-image: url('img/bow.png');">
                 <div class="directions-items-item__title">Bow</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -163,7 +213,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="directions-items-item" style="background-image: url('img/arrangement.png');">
+            <div class="directions-items-item wow bounceInRight" style="background-image: url('img/arrangement.png');">
                 <div class="directions-items-item__title">Arrangement</div>
                 <div class="directions-items-item__list">
                     <ul>
@@ -177,19 +227,19 @@
     </div>
 </section> <section class="firstlesson">
     <div class="firstlesson-container">
-        <div class="firstlesson__title">
+        <div class="firstlesson__title wow bounceInRight">
             <h2>First lesson program</h2>
         </div>
-        <div class="firstlesson__description">
+        <div class="firstlesson__description wow bounceInLeft">
             <p>To determine your musical abilities and start training, you need to sign up for the first lesson at the school of music and vocals, where you will have the opportunity to get acquainted with teachers, learn all about the unique accelerated
                 program and much more.</p>
         </div>
-        <div class="firstlesson__description-info">
+        <div class="firstlesson__description-info wow bounceInRight">
             <h3>You don't need to pay for it — the first lesson is absolutely free!</h3>
         </div>
         <div class="firstlesson-steps">
             <div class="firstlesson-steps-left">
-                <div class="firstlesson-steps-left-item left-step">
+                <div class="firstlesson-steps-left-item left-step wow bounceInLeft">
                     <div class="firstlesson-steps-left-item__title">
                         <h3>The choice of the teacher</h3>
                     </div>
@@ -198,7 +248,7 @@
                     </div>
                 </div>
                 <div class="firstlesson-steps-left-item left-step"></div>
-                <div class="firstlesson-steps-left-item left-step">
+                <div class="firstlesson-steps-left-item left-step wow bounceInLeft">
                     <div class="firstlesson-steps-left-item__title">
                         <h3>Basic exercise</h3>
                     </div>
@@ -207,7 +257,7 @@
                     </div>
                 </div>
                 <div class="firstlesson-steps-left-item left-step"></div>
-                <div class="firstlesson-steps-left-item left-step">
+                <div class="firstlesson-steps-left-item left-step wow bounceInLeft">
                     <div class="firstlesson-steps-left-item__title">
                         <h3>Selection of the training program</h3>
                     </div>
@@ -219,7 +269,7 @@
             </div>
             <div class="firstlesson-steps-right">
                 <div class="firstlesson-steps-left-item right-step"></div>
-                <div class="firstlesson-steps-left-item right-step">
+                <div class="firstlesson-steps-left-item right-step wow bounceInRight">
                     <div class="firstlesson-steps-left-item__title">
                         <h3>The definition of a musical level</h3>
                     </div>
@@ -229,7 +279,7 @@
                     </div>
                 </div>
                 <div class="firstlesson-steps-left-item right-step"></div>
-                <div class="firstlesson-steps-left-item right-step">
+                <div class="firstlesson-steps-left-item right-step wow bounceInLeft">
                     <div class="firstlesson-steps-left-item__title">
                         <h3>Voice processing</h3>
                     </div>
@@ -239,7 +289,7 @@
                 </div>
                 <div class="firstlesson-steps-left-item right-step"></div>
 
-                <div class="firstlesson-steps-left-item right-step">
+                <div class="firstlesson-steps-left-item right-step wow bounceInLeft">
                     <div class="firstlesson-steps-left-item__title">
                         <h3>Selection of the training program</h3>
                     </div>
@@ -249,36 +299,36 @@
                 </div>
             </div>
         </div>
-        <div class="button button-first-lesson"><a href="#">Sign up for a class</a></div>
+        <div class="button button-first-lesson wow bounceInLeft"><a href="#">Sign up for a class</a></div>
     </div>
 </section> <section class="cost">
     <div class="cost-container">
-        <div class="cost__title">
+        <div class="cost__title wow bounceInLeft">
             <h2>The cost of training</h2>
         </div>
-        <div class="cost__description">
+        <div class="cost__description wow bounceInRight">
             <p>There are several courses in Violin that differ in duration, program, and cost. However, regardless of the course, it is much more profitable at the price to engage with school teachers, rather than with Tutors. While studying in the Studio,
                 students get the opportunity to additionally rehearse outside of school hours, make recordings in the Studio, perform at apartment parties and concerts, select a convenient schedule of classes and get a certificate at the end of training.</p>
         </div>
-        <div class="cost__description-info">
+        <div class="cost__description-info wow bounceInLeft">
             <h3>Free trial session in the Studio! Also, the longer the course chosen by the student, the greater the discount they receive!</h3>
         </div>
         <div class="cost-programs">
-            <div class="cost-programs-program" style="background-image: url('img/trial.png');">
+            <div class="cost-programs-program wow bounceInLeft" style="background-image: url('img/trial.png');">
                 <div class="program__title">
                     <h3>Trial individual lesson</h3>
                 </div>
                 <div class="program__cost">Free</div>
                 <div class="button button-cost">Sign up</div>
             </div>
-            <div class="cost-programs-program" style="background-image: url('img/abonement.png');">
+            <div class="cost-programs-program wow bounceInUp" style="background-image: url('img/abonement.png');">
                 <div class="program__title">
                     <h3>Subscription to individual classes</h3>
                 </div>
                 <div class="program__cost">from 200$</div>
                 <div class="button button-cost">Sign up</div>
             </div>
-            <div class="cost-programs-program" style="background-image: url('img/single.png');">
+            <div class="cost-programs-program wow bounceInRight" style="background-image: url('img/single.png');">
                 <div class="program__title">
                     <h3>One-time individual lesson</h3>
                 </div>
@@ -286,7 +336,7 @@
                 <div class="button button-cost">Sign up</div>
             </div>
         </div>
-        <div class="prepayment">
+        <div class="prepayment wow bounceInLeft">
             <p>Make a prepayment at the first lesson and get a 20 discount%</p>
         </div>
     </div>
@@ -295,13 +345,13 @@
     <div class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059458588!2d-74.25986623374673!3d40.69714941750987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sby!4v1590068321708!5m2!1sru!2sby"
             width="1920" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <div class="contacts-info-square">
+        <div class="contacts-info-square wow bounceInLeft">
             <div class="contacts-info-square__title">
                 <h3>How do you find us?</h3>
             </div>
             <div class="contacts-info-square__contact">
                 <span>Address</span>
-                <p>New York Wall street 20›</p>
+                <p>New York Wall street 20</p>
             </div>
             <div class="contacts-info-square__contact">
                 <span>Operating time</span>
