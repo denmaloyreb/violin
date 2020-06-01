@@ -90,6 +90,38 @@
     text-align: center;
 }
 
+.firstlesson-steps-mobile {
+    counter-reset: counter-mobile;
+}
+
+.left-step-mobile .firstlesson-steps-left-item__title {
+    counter-increment: counter-mobile;
+}
+
+.left-step-mobile .firstlesson-steps-left-item__title h3::after {
+    content: counter(counter-mobile);
+    border: 1px solid #3860e5;
+    background-color: #fff;
+    float: left;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 2px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.left-step-mobile {
+    border-left: 2px dashed #3860E5;
+    padding-right: 10px;
+    border-right: none;
+    padding-left: 10px;
+}
+
+.firstlesson-steps-mobile {
+    display: none;
+}
+
 .button-first-lesson {
     margin: 20px auto
 }

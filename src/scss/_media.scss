@@ -38,6 +38,9 @@
     .lessons {
         margin-top: -40%;
     }
+    .lessons-info-text__paragpaph {
+        margin-left: 6px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -49,11 +52,90 @@
     }
 }
 
+@media (max-width: 1130px) {
+    .cost-desctop {
+        display: none;
+    }
+    .mobile-slider {
+        display: flex;
+    }
+}
+
 @media (max-width: 1024px) {
     .header-menu {
         display: none;
     }
     .mobile-menu {
         display: flex;
+    }
+}
+
+@media (max-width: 920px) {
+    .header-bottom {
+        flex-direction: column;
+        flex-flow: wrap-reverse;
+    }
+    header {
+        min-height: 100vh;
+    }
+    .lessons {
+        margin-top: 20px;
+    }
+    .lessons-container {
+        margin-top: 10px;
+        margin-left: 8px;
+        margin-right: 5px;
+    }
+    .directions-container,
+    .container-header-text {
+        margin-left: 8px;
+        margin-right: 5px;
+    }
+    .firstlesson-container {
+        margin-left: 8px;
+        margin-right: 5px;
+        margin-top: 45px;
+    }
+    .button {
+        margin: auto;
+    }
+    .directions__description {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 813px) {
+    .directions-mobile {
+        display: flex;
+    }
+    .directions-items {
+        display: none;
+    }
+    .directions {
+        min-height: 40vh;
+    }
+    .firstlesson-container {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 750px) {
+    .firstlesson-steps {
+        display: none;
+    }
+    .firstlesson-steps-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    .lessons-info {
+        flex-direction: column;
+    }
+    .lessons-info__image img {
+        width: 75%;
+    }
+    .lessons-info__image {
+        text-align: center;
     }
 }

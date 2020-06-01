@@ -62,3 +62,14 @@
     font-size: 35px;
     margin-right: 3px;
 }
+
+.direction-items__slider {
+    margin: auto;
+    box-shadow: 0px 6px 25px 25px rgba(0, 0, 0, 0.06);
+    max-width: 400px;
+    text-align: center;
+}
+
+.directions-mobile {
+    display: none;
+}
