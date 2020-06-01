@@ -139,3 +139,39 @@
         text-align: center;
     }
 }
+
+@media (max-width: 600px) {
+    .contacts {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .directions-mobile .direction-items__slider {
+        max-width: 257px;
+    }
+    .directions-mobile .directions-items-item__title {
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .directions-mobile .directions-items-item__list {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .cost-mobile_slider {
+        max-width: 275px;
+    }
+    .cost-mobile-slide .slick-slide .slick-current .slick-active {
+        max-width: 275px;
+    }
+}
+
+@media (max-width: 440px) {
+    .contact-phone {
+        display: none;
+    }
+    footer .contact-phone {
+        display: flex;
+        font-size: 12px;
+    }
+}
