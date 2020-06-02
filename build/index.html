@@ -19,13 +19,29 @@
         <header>
     <div class="menu-mobile">
         <div class="menu-mobile__menu">
+            <a href="#">
+                <div class="close-btn-mobile"></div>
+            </a>
             <ul class="menu-list mobile-list">
-                <li><a href="#">All disciplines</a>
+                <li><a href="#directions">All disciplines</a>
                 </li>
-                <li><a href="#">First day programm</a></li>
-                <li><a href="#">Cost</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#firstlesson">First day programm</a></li>
+                <li><a href="#cost-section">Cost</a></li>
+                <li><a href="#contacts-section">Contacts</a></li>
             </ul>
+            <div class="mobile__contacts">
+                <div class="contacts-mobile">
+                    <div class="contacts__point-mobile"><img src="img/iconLocation.png" alt="location"></div>
+                    <div class="contacts__text-mobile">New York Wall street 20
+                    </div>
+                </div>
+                <div class="contact-phone-mobile">
+                    <div class="contact-phone__img-mobile"><img src="img/iconPhone.png" alt=""></div>
+                    <a href="tel:11111">
+                        <div class="contact-phone__text-mobile">1 (234) 567-89-10</div>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -39,12 +55,12 @@
         </div>
         <nav class="header-menu">
             <ul class="menu-list">
-                <li><a href="#">All disciplines</a>
+                <li><a href="#directions">All disciplines</a>
                 </li>
-                <li><a href="#">First day programm</a></li>
-                <li><a href="#">Cost</a></li>
+                <li><a href="#firstlesson">First day programm</a></li>
+                <li><a href="#cost-section">Cost</a></li>
 
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#contacts-section">Contacts</a></li>
             </ul>
         </nav>
         <div class="contacts">
@@ -54,7 +70,9 @@
         </div>
         <div class="contact-phone">
             <div class="contact-phone__img"><img src="img/iconPhone.png" alt=""></div>
-            <div class="contact-phone__text">1 (234) 567-89-10</div>
+            <a href="tel:11111">
+                <div class="contact-phone__text">1 (234) 567-89-10</div>
+            </a>
         </div>
         <div class="mobile-menu">
             <div></div>
@@ -119,7 +137,7 @@
             </div>
         </div>
     </div>
-</section> <section class="directions">
+</section> <section class="directions" id="directions">
     <div class="directions-container">
         <div class="directions__title wow bounceInRight">
             <h2>All directions of study</h2>
@@ -316,7 +334,7 @@
             </div>
             <div class="next"><img src="img/next.png" alt=""></div>
         </div>
-</section> <section class="firstlesson">
+</section> <section class="firstlesson" id="firstlesson">
     <div class="firstlesson-container">
         <div class="firstlesson__title wow bounceInRight">
             <h2>First lesson program</h2>
@@ -437,9 +455,11 @@
 
 
 
-        <div class="button button-first-lesson"><a href="#">Sign up for a class</a></div>
+        <a href="#popup">
+            <div class="button button-first-lesson">Sign up for a class</div>
+        </a>
     </div>
-</section> <section class="cost">
+</section> <section class="cost" id="cost-section">
     <div class="cost-container">
         <div class="cost__title wow bounceInLeft">
             <h2>The cost of training</h2>
@@ -460,7 +480,9 @@
                         <h3>Trial individual lesson</h3>
                     </div>
                     <div class="program__cost">Free</div>
-                    <div class="button button-cost">Sign up</div>
+                    <a href="#popup">
+                        <div class="button button-cost">Sign up</div>
+                    </a>
                 </div>
                 <div class="cost-programs-program wow bounceInUp">
                     <div class="cost__icon"><img src="img/iconSeveral.png" alt="several"></div>
@@ -468,7 +490,9 @@
                         <h3>Subscription to individual classes</h3>
                     </div>
                     <div class="program__cost">from 200$</div>
-                    <div class="button button-cost">Sign up</div>
+                    <a href="#popup">
+                        <div class="button button-cost">Sign up</div>
+                    </a>
                 </div>
                 <div class="cost-programs-program wow bounceInRight">
                     <div class="cost__icon"><img src="img/iconOne.png" alt="onelesson"></div>
@@ -476,7 +500,9 @@
                         <h3>One-time individual lesson</h3>
                     </div>
                     <div class="program__cost">100$</div>
-                    <div class="button button-cost">Sign up</div>
+                    <a href="#popup">
+                        <div class="button button-cost">Sign up</div>
+                    </a>
                 </div>
             </div>
             <div class="mobile-slider">
@@ -489,7 +515,9 @@
                             <h3>Trial individual lesson</h3>
                         </div>
                         <div class="program__cost">Free</div>
-                        <div class="button button-cost">Sign up</div>
+                        <a href="#popup">
+                            <div class="button button-cost">Sign up</div>
+                        </a>
                     </div>
                     <div class="cost-mobile-slide">
                         <div class="cost__icon"><img src="img/iconSeveral.png" alt="several"></div>
@@ -497,7 +525,9 @@
                             <h3>Subscription to individual classes</h3>
                         </div>
                         <div class="program__cost">from 200$</div>
-                        <div class="button button-cost">Sign up</div>
+                        <a href="#popup">
+                            <div class="button button-cost">Sign up</div>
+                        </a>
                     </div>
                     <div class="cost-mobile-slide">
                         <div class="cost__icon"><img src="img/iconOne.png" alt="onelesson"></div>
@@ -505,7 +535,9 @@
                             <h3>One-time individual lesson</h3>
                         </div>
                         <div class="program__cost">100$</div>
-                        <div class="button button-cost">Sign up</div>
+                        <a href="#popup">
+                            <div class="button button-cost">Sign up</div>
+                        </a>
                     </div>
 
                 </div>
@@ -521,7 +553,7 @@
             <p>Make a prepayment at the first lesson and get a 20 discount%</p>
         </div>
     </div>
-</section> <section class="contacts-section">
+</section> <section class="contacts-section" id="contacts-section">
 
     <div class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059458588!2d-74.25986623374673!3d40.69714941750987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sby!4v1590068321708!5m2!1sru!2sby"
@@ -538,14 +570,18 @@
                 <span>Operating time</span>
                 <p>Mon-Sun: 10: 00-23: 00</p>
             </div>
-            <div class="contacts-info-square__contact">
-                <span>Phone</span>
-                <p>1(234) 567-89-10</p>
-            </div>
-            <div class="contacts-info-square__contact">
-                <span>E-mail</span>
-                <p>violin@violin.com</p>
-            </div>
+            <a href="tel:1111">
+                <div class="contacts-info-square__contact footer__phone">
+                    <span>Phone</span>
+                    <p>1(234) 567-89-10</p>
+                </div>
+            </a>
+            <a href="mailto:example">
+                <div class="contacts-info-square__contact footer__email">
+                    <span>E-mail</span>
+                    <p>violin@violin.com</p>
+                </div>
+            </a>
         </div>
     </div>
 
@@ -571,7 +607,9 @@
         </div>
         <div class="contact-phone">
             <div class="contact-phone__img"><img src="img/iconPhone.png" alt=""></div>
-            <div class="contact-phone__text">1 (234) 567-89-10</div>
+            <a href="tel:11111">
+                <div class="contact-phone__text">1 (234) 567-89-10</div>
+            </a>
         </div>
     </div>
 </footer> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

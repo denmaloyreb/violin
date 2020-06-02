@@ -88,6 +88,10 @@
         margin-top: 40px;
     }
     
+    .contact-phone__text:hover {
+        transform: scale(1.2);
+    }
+    
     .menu-mobile {
         position: fixed;
         min-height: 100vh;
@@ -101,6 +105,37 @@
         width: 90vw;
         background: #F3F9FF;
         min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .close-btn-mobile {
+        width: 44px;
+        height: 26px;
+        position: absolute;
+        right: 10vw;
+        top: 31px;
+        cursor: pointer;
+    }
+    
+    .close-btn-mobile::after,
+    .close-btn-mobile::before {
+        content: "";
+        width: 35px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        transform-origin: left;
+    }
+    
+    .close-btn-mobile::after {
+        transform: rotate(45deg);
+    }
+    
+    .close-btn-mobile::before {
+        transform: rotate(-45deg);
+        bottom: -1px;
     }
     
     .mobile-list {
@@ -110,11 +145,11 @@
     }
     
     .mobile-list li {
-        margin: auto;
+        margin-left: 20px;
     }
     
     .mobile-list li:nth-child(1) {
-        margin-left: auto;
+        margin-left: 20px;
     }
     
     .mobile-menu {
@@ -135,6 +170,19 @@
         height: 2px;
         background-color: black;
         margin: 5px 0;
+    }
+    
+    .mobile__contacts {
+        margin-bottom: 10vh;
+    }
+    
+    .contacts-mobile {
+        text-align: center;
+    }
+    
+    .contact-phone-mobile {
+        text-align: center;
+        margin-top: 22px;
     }
     
     .header-bottom {

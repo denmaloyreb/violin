@@ -148,7 +148,7 @@
 
 @media (max-width: 450px) {
     .directions-mobile .direction-items__slider {
-        max-width: 257px;
+        max-width: 245px;
     }
     .directions-mobile .directions-items-item__title {
         font-size: 14px;
@@ -159,10 +159,10 @@
         line-height: 15px;
     }
     .cost-mobile_slider {
-        max-width: 275px;
+        max-width: 245px;
     }
     .cost-mobile-slide .slick-slide .slick-current .slick-active {
-        max-width: 275px;
+        max-width: 245px;
     }
 }
 
@@ -173,5 +173,11 @@
     footer .contact-phone {
         display: flex;
         font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .form-container {
+        margin: 15vh auto;
     }
 }
